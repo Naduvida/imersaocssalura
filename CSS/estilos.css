@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/f2/3d/c4/f23dc472598f00c127ba422b73627207.jpg");
+    background-size: auto 100vh;
+    font-family: Impact;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: pink;
+    font-family: verdana;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: Orange;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: bold;
+  }
