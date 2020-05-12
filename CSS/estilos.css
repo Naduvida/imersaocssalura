@@ -1,13 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-image: url("https://i.pinimg.com/564x/f2/3d/c4/f23dc472598f00c127ba422b73627207.jpg");
     background-size: auto 100vh;
     font-family: Impact;
     height: 100vh;
+    font-size: 12px;
+  }
+
+/*se a tela tiver pelo menos 400px vai carregar esses estilos
+breakpoint*/
+  @media (min-width: 400px) {
+body {
+  font-size: 15px;
+}
+  }
+
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+      }
+
+  header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu {
-    background-color: pink;
+    background-color: rgba(218, 109, 127, 0.76);
     font-family: verdana;
+    position: fixed;
+    width: 100vw;
+    top: 0;
   }
   
   a {
@@ -28,9 +59,15 @@ body {
     list-style: none;
   }
   
+  .menu a {
+display: block;
+padding: 8px 14px;
+  }
+
+
   .site-subtitle,
   .site-title {
-    color: Orange;
+    color: rgb(194, 129, 10);
     text-align: center;
   }
   
